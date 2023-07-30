@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .container {
+    max-width: 1749px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a5316f;
+  
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  form {
+    flex: 1;
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="url"] {
+    width: 92%;
+    padding: 5px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #registrationDetails {
+    flex: 1;
+    padding: 20px;
+    background-color: #9d2063;
+  
+  
+  
+  }
+  
+  nav {
+    background-color: #861953;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
